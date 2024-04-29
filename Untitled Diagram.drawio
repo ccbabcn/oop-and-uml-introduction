@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-29T18:59:40.618Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="KLGmEEGTVbMDqNn_x8k7" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-29T19:04:54.390Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="w8Tz118TxGo655YD4Dqg" version="24.3.1" type="github">
   <diagram name="Page-1" id="pCP8gP57gu--AseNP8Vg">
     <mxGraphModel dx="1103" dy="605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -113,6 +113,26 @@
         </mxCell>
         <mxCell id="bY8z7Jvjd4us4o7hZ8jq-21" value="+ add(): void&lt;div&gt;+ remove(): void&lt;/div&gt;&lt;div&gt;+ calculateBasePrice(): number&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ calculateTotalPrice(): number&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bY8z7Jvjd4us4o7hZ8jq-18">
           <mxGeometry y="78" width="200" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="bY8z7Jvjd4us4o7hZ8jq-22" value="BusinessProductCart" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="790" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bY8z7Jvjd4us4o7hZ8jq-23" value="&lt;div&gt;- products: Product []&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bY8z7Jvjd4us4o7hZ8jq-22">
+          <mxGeometry y="26" width="220" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="bY8z7Jvjd4us4o7hZ8jq-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="bY8z7Jvjd4us4o7hZ8jq-22">
+          <mxGeometry y="70" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="bY8z7Jvjd4us4o7hZ8jq-25" value="+ add(): void&lt;div&gt;+ remove(): void&lt;/div&gt;&lt;div&gt;+ calculateBasePrice(): number&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ calculateTotalPrice(): number&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="bY8z7Jvjd4us4o7hZ8jq-22">
+          <mxGeometry y="78" width="220" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="bY8z7Jvjd4us4o7hZ8jq-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.272;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bY8z7Jvjd4us4o7hZ8jq-22" target="bY8z7Jvjd4us4o7hZ8jq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bY8z7Jvjd4us4o7hZ8jq-27" value="Implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bY8z7Jvjd4us4o7hZ8jq-26">
+          <mxGeometry x="0.019" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
